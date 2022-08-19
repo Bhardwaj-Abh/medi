@@ -1,0 +1,34 @@
+server:
+  port: 80
+  servlet:
+    context-path: /MediCare
+spring:
+  datasource:
+    password: Kinleywater22
+    url: jdbc:mysql://localhost:3306/db
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    show-sql: true
+    
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 812516356558-tc05bofv66nhbbe87ep3mf8tm06ucvts.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+            - email
+            - profile
+          facebook:
+            client-id: 1527504097722417
+            client-secret: 772c445645f20c1bc4665e77d0499dd9
+            scope:
+            - email
+            - public_profile        
