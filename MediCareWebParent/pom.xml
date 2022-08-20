@@ -11,7 +11,7 @@
 	<groupId>com.medicare</groupId>
 	<artifactId>MediCareWebParent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>war</packaging>
 	<name>MediCareWebParent</name>
 	<description>parent spring web project</description>
 	<properties>
