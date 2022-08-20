@@ -3,7 +3,7 @@
   <groupId>com.medicare</groupId>
   <artifactId>MediCareProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <name>MediCareProject</name>
   <description>Root Project</description>
   
